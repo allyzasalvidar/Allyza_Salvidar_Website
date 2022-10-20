@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: #505d61;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+nav .logo p {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+    float: right;
+}
+
+.glass img {
+    height: 40%;
+    width: 25%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 210px;
+    margin-right: 10px;
+    padding: 30px;
+}
+
+.glass header {
+    height: 20%;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+    margin-right: 210px;
+    margin-top: 150px;
+    padding: 30px;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #98c1d9;
+}
+
+.glass p {
+    height: 100%;
+    width: 40%;
+    float: right;
+    margin-left: 5px;
+    margin-right: 210px;
+    padding: 30px;
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e0fbfc;
+}
+
+
+footer {
+    width: 100%;
+    background: rgb(138, 135, 135);
+    display: inline-block;
+    font-size: 12px;
+    color:white;
+    padding: 0 15px;
+    margin-top: 5%;
+    text-align:center;
+}
+
+footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

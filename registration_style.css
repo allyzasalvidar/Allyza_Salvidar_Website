@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    margin: 5px;
+    padding: 10px;
+    border-width: 1px 0;
+    background-color: #505D61;
+    border-style: solid;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+nav .logo p {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+    float: right;
+    margin-top: 15px;
+}
+
+form {
+    margin: auto;
+    padding: 30px;
+    width: 700px;
+    background-color: lightgrey;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Name sup {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 1px;
+    padding-right: 16%;
+}
+
+.Birthdate label {
+    margin-left: 1px;
+    padding-right: 16%;
+}
+
+.Gender select {
+    margin-left: 1px;
+    padding-right: 21%;
+}
+
+.Address sup {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 1px;
+    padding-right: 21%;
+}
+
+.e-mail label {
+    margin-left: 1px;
+    padding-right: 6%;
+}
+
+.phone label {
+    margin-left: 1px;
+    padding-right: 6%;
+}
+
+textarea {
+    width: 600px;
+    height: 100px;
+}
+
+.Submit input {
+    font-size: 12px;
+    width: 11%;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 1px;
+    padding: 5px;
+}
+
+.Submit button {
+    font-size: 12px;
+    width: 11%;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 1px;
+    padding: 5px;
+}
+
+
+
+
+footer {
+    width: 100%;
+    background: rgb(138, 135, 135);
+    display: inline-block;
+    font-size: 12px;
+    color:white;
+    padding: 0 15px;
+    margin-top: 5%;
+    text-align:center;
+}
+
+footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
